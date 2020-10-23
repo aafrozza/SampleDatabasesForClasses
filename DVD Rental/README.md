@@ -8,4 +8,4 @@ INSTALL
 
 createdb -U username dvdrental
 
-pg_restore -U postgres -d dvdrental dvdrental.tar
+pg_restore -U username -d dvdrental dvdrental.tar
